@@ -13,5 +13,12 @@ public class SisController {
 	public String giveBook() {
 		return "here is your Book>>>>>";
 	}
+	
+	@ResponseBody
+	@RequestMapping("/makeup")
+	public String giveMakeupKit() {
+		
+		return "Test comit command into springnewtest-branch";
+	}
 
 }

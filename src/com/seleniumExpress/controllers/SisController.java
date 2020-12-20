@@ -14,11 +14,6 @@ public class SisController {
 		return "here is your Book>>>>>";
 	}
 	
-	@ResponseBody
-	@RequestMapping("/makeup")
-	public String giveMakeupKit() {
-		
-		return "Test comit command into springnewtest-branch";
-	}
+	
 
 }
